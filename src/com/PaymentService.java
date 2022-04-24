@@ -29,7 +29,7 @@ public String insertPayment(@FormParam("paymentNo") String paymentNo,
  @FormParam("companyName") String companyName,
  @FormParam("amount") String amount,
  @FormParam("units") String units)
-{//get
+{
  String output = paymentObj.insertPayment(paymentNo, companyName, amount, units);
 return output;
 }
