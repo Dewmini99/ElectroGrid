@@ -1,7 +1,7 @@
 package model;
 import java.sql.*;
 public class Payment
-{ //A common method to connect to the DB
+{ //A common method to connect to the DB- connection creation
 private Connection connect()
  {
  Connection con = null;
